@@ -154,3 +154,39 @@ main{
 .what-i-do-card .card p{
     font-size: 16px;
 }
+
+/* resume area */
+
+
+
+.resume{
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.resume-title{
+    padding: 30px;
+    font-size: 50px;
+}
+.resume-ares .item1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.resume-ares .item1 .card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+}
+.resume-ares .item1 .card .card-item{
+    box-shadow: 2px 2px 20px rgba(15, 14, 14, 0.604);
+    margin-bottom: 20px;
+}
