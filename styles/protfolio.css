@@ -25,6 +25,10 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.bg-color{
+    background-color: FFF8F3;
+}
 /* 
 *{
     margin: 0;
@@ -189,4 +193,43 @@ main{
 .resume-ares .item1 .card .card-item{
     box-shadow: 2px 2px 20px rgba(15, 14, 14, 0.604);
     margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 50px 150px;
+}
+footer .item{
+    max-width: 570px;
+}
+
+footer .item2{
+    display: flex;
+    align-items:left;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 570px;
+
+}
+footer .item2 input{
+    padding:10px;
+    font-size: 20px;
+    outline: none;
+    width: full;
+    border: none;
+    margin: 10px 0;
+}
+footer .item2 textarea{
+    padding:10px;
+    font-size: 20px;
+    outline: none;
+    width: full;
+    border: none;
+    margin: 10px 0;
+}
+footer .item2 button{
+    width: 100px;
+    padding: 10px ;
 }
