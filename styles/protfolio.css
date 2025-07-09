@@ -79,13 +79,16 @@ nav li a button:hover{
     border:1px solid rgb(69, 65, 65)
 }
 /* Banner */
+header{
+    width: 100%;
+}
 .banner{
     display: flex;
     justify-content: space-between;
     margin: 0 0 0 200px;
     position: relative;
-    height: 650px;
-    overflow:hidden
+    height: 600px;
+    overflow:hidden;
 }
 .banner-content{
     max-width: 580px;
