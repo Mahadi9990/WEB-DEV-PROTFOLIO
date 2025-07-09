@@ -82,7 +82,10 @@ nav li a button:hover{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0 0 0 200px;
+    position: relative;
+    height: 650px;
+    overflow:hidden
 }
 .banner-content{
     max-width: 580px;
@@ -97,6 +100,10 @@ nav li a button:hover{
 }
 .protfolio-banner-pic{
     width: 580px;
+    position: absolute;
+    right: -20px;
+    bottom:0;
+    
 }
 
 /* About section */
